@@ -84,7 +84,12 @@ const itemVariants: Variants = {
 const CardGallery: React.FC = () => {
   return (
     <GridBackground gap={20} dotColor="rgba(255, 255, 255, 0.25)">
-      <img src={brush}></img>
+     <img
+  src={brush}
+  alt="brush"
+  className="absolute -top-16 left-0 w-full z-20 pointer-events-none"
+/>
+
     <div className="relative min-h-screen w-full py-20 px-4 sm:px-10 overflow-visible">
       
       {/* Background Decor - Absolute for full stretch */}
@@ -140,7 +145,12 @@ const CardGallery: React.FC = () => {
         </motion.div>
       </div>
     </div>
-    
+         <img
+  src={brush}
+  alt="brush"
+  className="absolute -bottom-12 left-0 w-full z-20 pointer-events-none"
+/>
+
     </GridBackground>
   );
 };
