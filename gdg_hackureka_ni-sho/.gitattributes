@@ -1,3 +1,0 @@
-*.gif filter=lfs diff=lfs merge=lfs -text
-gdg_hackureka_ni-sho/src/assets/*.gif filter=lfs diff=lfs merge=lfs -text
-src/assets/*.gif filter=lfs diff=lfs merge=lfs -text
