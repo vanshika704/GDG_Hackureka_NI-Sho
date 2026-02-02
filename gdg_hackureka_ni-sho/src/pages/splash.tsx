@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion, type Variants } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-
+import image1 from "/splash.gif";
 import image2 from "../assets/1015426d0ef8f6a8102f2cbc8ae3d221.png"
 // --- 1. Balanced Aggressive Text ---
 const textVariants: Variants = {
@@ -49,7 +49,7 @@ const SplashScreen: React.FC = () => {
       {/* Background - Darker for better text pop */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/splash"
+          src={image1}
           alt="Background"
           className="h-full w-full object-cover brightness-[0.65] contrast-125" 
         />
