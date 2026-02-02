@@ -6,7 +6,7 @@ const Navbar = () => {
   const navItems = ["PRIZES", "TRACKS", "TIMELINE", "SPONSOR"];
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-sm ">
+    <nav className="fixed top-0 left-0 w-full z-50  ">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between relative z-50">
         
         {/* Mobile Toggle */}

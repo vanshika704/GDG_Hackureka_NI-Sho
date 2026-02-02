@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import SplashScreen from "./pages/splash";
 import Home from "./pages/Home"
 import Navbar from './components/Navbar';
+import GlobalAudio from './components/globalaudio';
 
 // Navbar ko control karne ke liye ek chota internal component
 const NavbarWrapper = () => {
@@ -25,7 +26,9 @@ function App() {
         <Route path="/" element={<SplashScreen />} />
         <Route path="/home" element={<Home/>} />
       </Routes>
+      <GlobalAudio />
     </BrowserRouter>
+    
   );
 }
 
