@@ -1,10 +1,7 @@
 import React, { useRef, useMemo } from "react";
 import { motion, useScroll, useSpring, useTransform, useMotionValue } from "framer-motion";
 import image1 from "../assets/bg.png";
-import image2 from "../assets/1.gif";
-import image3 from "../assets/2.gif";
-import image4 from "../assets/3.gif";
-import image5 from "../assets/4.gif";
+
 
 interface Event {
   title: string;
@@ -18,25 +15,25 @@ const events: Event[] = [
     title: "Hunt Begins", 
     tag: "Arc 00", 
     desc: "03 FEB 2026. REGISTRATIONS ARE NOW LIVE. ENTER THE ARENA.", 
-    img: image2
+    img: "/1.gif"
   },
   { 
     title: "Registration Ends", 
     tag: "Arc 01", 
     desc: "15 FEB 2026. THE GATES ARE CLOSING. LAST CHANCE TO JOIN.", 
-    img: image3
+    img: "/2.gif"
   },
   { 
     title: "Online Shortlisting", 
     tag: " Arc 02", 
     desc: "22 FEB. TOP TEAMS ANNOUNCED BASED ON THE PPT SUBMISSION ", 
-    img: image4
+    img: "/3.gif"
   },
   { 
     title: "Final Event", 
     tag: "Arc 03", 
     desc: "26 FEB. VENUE: MAHARISHI MARKANDESHWAR(DEEMED TO BE) UNIVERSITY, MULLANA (AMBALA).", 
-    img: image5
+    img: "/4.gif"
   },
 ];
 
