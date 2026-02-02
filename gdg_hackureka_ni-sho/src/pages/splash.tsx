@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion, type Variants } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import image1 from "/splash.gif";
+import image1 from "../assets/splash.gif";
 import image2 from "../assets/1015426d0ef8f6a8102f2cbc8ae3d221.png"
 // --- 1. Balanced Aggressive Text ---
 const textVariants: Variants = {
