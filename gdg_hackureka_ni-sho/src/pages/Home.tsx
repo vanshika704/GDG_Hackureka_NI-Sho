@@ -27,7 +27,10 @@ function Home() {
       <section id="judges">
         <SlayerJudges />
       </section>
-<OrganizingTeam/>
+      <section id="contacts">
+        <OrganizingTeam/>
+        </section>
+
       <section id="faqs">
         <SlayerFAQ />
       </section>

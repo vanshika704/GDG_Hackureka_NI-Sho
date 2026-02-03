@@ -16,7 +16,7 @@ const DownloadWidget = () => {
   };
 
   const openCanva = () => {
-    window.open("YOUR_CANVA_LINK_HERE", "_blank");
+    window.open("https://www.canva.com/design/DAG_l1eRlj8/4TVY3zukrgx3q82brwCWNQ/edit", "_blank");
     setShowModal(false);
   };
 
