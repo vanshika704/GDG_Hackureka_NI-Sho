@@ -1,7 +1,9 @@
 import SlayerFAQ from "../components/faqs";
+import DownloadWidget from "../components/sampleppt";
 import SlayerTimeline from "../components/timeline";
 import Hero from "./Hero";
 import SlayerJudges from "./judges";
+import OrganizingTeam from "./organizingteam";
 import PrizePool from "./PrizePool";
 import CardGallery from "./ps";
 
@@ -25,10 +27,11 @@ function Home() {
       <section id="judges">
         <SlayerJudges />
       </section>
-
+<OrganizingTeam/>
       <section id="faqs">
         <SlayerFAQ />
       </section>
+      <DownloadWidget/>
 
     </div>
   );

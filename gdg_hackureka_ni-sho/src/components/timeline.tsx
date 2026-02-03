@@ -26,13 +26,13 @@ const events: Event[] = [
   { 
     title: "Online Shortlisting", 
     tag: " Arc 02", 
-    desc: "22 FEB. TOP TEAMS ANNOUNCED BASED ON THE PPT SUBMISSION ", 
+    desc: "22 FEB 2026. TOP TEAMS ANNOUNCED BASED ON THE PPT SUBMISSION ", 
     img: "/3.gif"
   },
   { 
     title: "Final Event", 
     tag: "Arc 03", 
-    desc: "26 FEB. VENUE: MAHARISHI MARKANDESHWAR(DEEMED TO BE) UNIVERSITY, MULLANA (AMBALA).", 
+    desc: "26 FEB 2026. VENUE: MAHARISHI MARKANDESHWAR(DEEMED TO BE) UNIVERSITY, MULLANA (AMBALA).", 
     img: "/4.gif"
   },
 ];
