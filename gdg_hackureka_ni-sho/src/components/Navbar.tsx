@@ -86,6 +86,7 @@ const Navbar = () => {
     { label: "PRIZE POOL", id: "prize-pool" },
     { label: "TIMELINE", id: "timeline" },
     { label: "JUDGES", id: "judges" },
+        { label: "CONTACT US", id: "contacts" },
   ];
 
   const scrollToSection = (id: string) => {
