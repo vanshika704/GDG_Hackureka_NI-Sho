@@ -104,7 +104,7 @@ const DownloadWidget = () => {
                 onClick={() => setShowModal(false)}
                 className="mt-8 w-full text-gray-600 hover:text-white font-impact text-sm tracking-[0.3em] transition-colors"
               >
-                [ CLOSE_WINDOW ]
+                [ CLOSE_WINDOW. ]
               </button>
             </motion.div>
           </div>
