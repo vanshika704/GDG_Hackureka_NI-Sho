@@ -5,7 +5,7 @@ const DownloadWidget = () => {
   const [showModal, setShowModal] = useState(false);
 
   const handleDownloadPPT = () => {
-    const pptUrl = "/hackathon-presentation.pptx"; // Ensure this is in your public folder
+    const pptUrl = "/Hackureka 2.0 PPT Template.pptx"; // Ensure this is in your public folder
     const link = document.createElement("a");
     link.href = pptUrl;
     link.download = "Hackureka_II_Guidelines.pptx";
