@@ -32,7 +32,7 @@ const events: Event[] = [
   { 
     title: "Final Event", 
     tag: "Arc 03", 
-    desc: "26 FEB 2026. VENUE: MAHARISHI MARKANDESHWAR(DEEMED TO BE) UNIVERSITY, MULLANA (AMBALA).", 
+    desc: "26 FEB 2026. VENUE: MAHARISHI MARKANDESHWAR (DEEMED TO BE) UNIVERSITY, MULLANA (AMBALA).", 
     img: "/4.gif"
   },
 ];
