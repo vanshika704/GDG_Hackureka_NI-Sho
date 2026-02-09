@@ -24,7 +24,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<SplashScreen />} />
-        <Route path="/home" element={<SplashScreen />} />
+        <Route path="/home" element={<Home />} />
       </Routes>
       <GlobalAudio />
     </BrowserRouter>
