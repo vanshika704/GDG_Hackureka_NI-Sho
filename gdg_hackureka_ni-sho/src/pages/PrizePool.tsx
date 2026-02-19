@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import image1 from "../assets/PricePool.png";
+import image1 from "../assets/PricePool1.png";
 import brush from "../assets/brush.png";
 
 const PrizePool = () => {

@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
     { label: "JUDGES", id: "judges", type: "scroll" },
     { label: "CONTACT US", id: "contacts", type: "scroll" },
     { 
-      label: "SPONSORS", 
+      label: "SPONSOR", 
       id: "sponsors", 
       type: "link", 
       url: "https://drive.google.com/file/d/1jkHjqR63eTPqioEHDIeJet2vTIgBJXiS/view?usp=drivesdk" 
