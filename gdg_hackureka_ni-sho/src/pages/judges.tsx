@@ -2,6 +2,7 @@ import React from 'react';
 import { motion, type Variants } from 'framer-motion';
 import GridBackground from '../components/Background';
 import image1 from  "../assets/judge1.jpeg";
+import image2 from "../assets/judge2.jpeg";
 // Toggle this array to empty [] to see the "Revealed" state
 const JUDGES_DATA = [
   {
@@ -11,7 +12,13 @@ const JUDGES_DATA = [
     image: image1,
     bio: "SENIOR ARCHITECT WITH EXTENSIVE EXPERIENCE IN ENTERPRISE SYSTEM DESIGN, CLOUD ARCHITECTURE, AND DIGITAL TRANSFORMATION."
   },
-  
+   {
+    id: 2,
+    name: "Abhishek Mittal",
+    role: "Senior S.E. at Informatica",
+    image: image2,
+    bio: "SENIOR SOFTWARE ENGINEER WITH EXPERIENCE IN ENTERPRISE APPLICATION DEVELOPMENT, CLOUD-NATIVE ARCHITECTURES, AND SCALABLE SALESFORCE-BASED DATA SOLUTIONS."
+  },
 ];
 
 
